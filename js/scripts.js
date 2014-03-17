@@ -53,68 +53,6 @@ var loadWeather = function(location) {
 
 
 
-//Cheney
-
-  $.simpleWeather({
-    
-    location: '99004', // change zip
-    unit: 'f',
-    
-    // Get _weather_ object
-    success: function(weather) {
-      
-      // Get & store temperature
-      var temp = weather.temp;
-      // Get & store city
-      var city = weather.city;
-      
-      // Output to hooks in HTML
-      $('.cheney .temp').text(temp);
-      $('.cheney .city').text(city);
-      
-      // See console for _weather_ object
-      console.log(weather);
-    },
-  
-    // if error
-    error: function(error) {  
-      $('body').html('<p>' + error + '</p>');
-    }
-  
-  });
-
-//Seattle
-
-  $.simpleWeather({
-    
-    location: '98198', // change zip
-    unit: 'f',
-    
-    // Get _weather_ object
-    success: function(weather) {
-      
-      // Get & store temperature
-      var temp = weather.temp;
-      // Get & store city
-      var city = weather.city;
-      
-      // Output to hooks in HTML
-      $('.seattle .temp').text(temp);
-      $('.seattle .city').text(city);
-      
-      // See console for _weather_ object
-      console.log(weather);
-    },
-  
-    // if error
-    error: function(error) {  
-      $('body').html('<p>' + error + '</p>');
-    }
-  
-  });
-
-
-
 
 
 // Make Foundation Go!

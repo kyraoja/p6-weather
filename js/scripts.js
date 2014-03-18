@@ -2,7 +2,6 @@
 $(document).foundation();
 
 // Your Awesome Scripts!
-//$(document).ready(function(){
 
   $('button').on('click', function() {
   
@@ -30,6 +29,7 @@ $(document).foundation();
       $('.temp').html(temp);
       $('.city').html(city);
       $('.currently').html(currently);
+      
 
       // See console for all properties of object
       console.log(weather);

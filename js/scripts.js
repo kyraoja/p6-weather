@@ -83,6 +83,9 @@ $(document).foundation();
       console.log(cityAndState);
 
       // Display Weather
+      var code = '<img src=' + weather.image + '>';
+      var temp = weather.temp + '&deg;' + weather.units.temp;
+      
       $('.temp').html(temp);
       $('.tomHi').html(tomHi);
       $('.tomLo').html(tomLo);

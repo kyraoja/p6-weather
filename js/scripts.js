@@ -1,6 +1,5 @@
-// Make Foundation Go!
-$(document).foundation();
-
+// REF: http://foundation.zurb.com/docs/
+// REF: http://simpleweatherjs.com/
 
 // 1. Check for Geolocation
 // REF: http://codepen.io/fleeting/pen/Idsaj
@@ -55,6 +54,12 @@ var loadWeather = function(location) {
 
 
 
+
+
+
+
+// Make Foundation Go!
+$(document).foundation();
 
 // Your Awesome Scripts!
 //$(document).ready(function(){

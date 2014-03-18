@@ -1,6 +1,5 @@
 body{
 	background: #1192d3;
-
 }
 
 button{
@@ -9,4 +8,8 @@ button{
 	text-align: center;
 	width: 100%;
 
+}
+
+li{
+	list-style: none;
 }

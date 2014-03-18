@@ -23,5 +23,10 @@ li{
 
 .city{
 	font-size: 20px;
+	text-align: center;
 }
 
+.currently{
+	font-size: 20px;
+	text-align: center;
+}

@@ -1,3 +1,6 @@
+// Make Foundation Go!
+$(document).foundation();
+
 // 1. Check for Geolocation
 // REF: http://codepen.io/fleeting/pen/Idsaj
 // Browser support geolocation?  
@@ -55,8 +58,7 @@ var loadWeather = function(location) {
 
 
 
-// Make Foundation Go!
-$(document).foundation();
+
 
 // Your Awesome Scripts!
 //$(document).ready(function(){
@@ -77,14 +79,16 @@ $(document).foundation();
       var temp = weather.temp;
       // Get & store city
       var city = weather.city;
+      // Get & store currently
+      var currently = weather.currently;
       var code = '<img src=' + weather.image + '>';
       var temp = weather.temp + '&deg;' + weather.units.temp;
       
       // Output to hooks in HTML
       $('.code').html(code);
       $('.temp').html(temp);
-      $('.temp').html(temp);
       $('.city').html(city);
+      $('.currently').html(currently);
 
       // See console for all properties of object
       console.log(weather);
